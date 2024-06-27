@@ -120,3 +120,92 @@ body {
     box-shadow: 0px 59px 30px #0085FF1A;
     border: 1px solid #EAEAEA
 }
+
+.course {
+    padding: 120px 0 50px;
+}
+
+.course__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course__bloc {
+    max-width: 642px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.course__bloc-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #626262;
+    line-height: 34px;
+}
+
+.course__bloc-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.course__bloc-item {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    background: #fff;
+    border-radius: 13px;
+    box-shadow: 0 30px 30px -15px rgba(0, 133, 255, 0.1);
+    padding: 15px;
+    position: relative;
+    max-width: 306px;
+    width: 100%;
+}
+
+.course__bloc-item-one {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.course__bloc-item-one-txt {
+    font-weight: 700;
+    font-size: 20px;
+    color: #323232;
+    line-height: 24px;
+}
+
+.course__bloc-item_price {
+    font-weight: 700;
+    font-size: 20px;
+    color: #323232;
+}
+
+.course__bloc-item_price span {
+    font-weight: 400;
+}
+
+.course__bloc-item::after {
+    content: '';
+    position: absolute;
+    width: 43px;
+    height: 1px;
+    background: #626262;
+    left: 110px;
+    top: 32px;
+}
+
+.course__bloc-item::before {
+    content: '';
+    position: absolute;
+    width: 43px;
+    height: 1px;
+    background: #626262;
+    left: 110px;
+    bottom: 32px;
+}
